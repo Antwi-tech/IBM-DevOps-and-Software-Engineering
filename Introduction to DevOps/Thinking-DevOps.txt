@@ -1,0 +1,77 @@
+Social coding: Making a project punlic to produce higher code quality, new features 
+, skill transfer , 
+
+Git is respnsible for social coding 
+
+Wokring in samll bathches 
+Requires quick feedback 
+Experiment more
+Minimize waste
+
+Small batches starts from the project backlog or stories . Thye need to be 
+small enough to get a quive feedback in dev and ops
+
+Minimum Viable Product 
+It is an experiment to test your value hypothesis and learn and understand
+It focuses on learning not delivery
+
+Test Driven Development 
+If it's worth building it's worth testing, if it's not worth testing,
+why are you wasting your time working on it? - Scott Ambler 
+Making sure your code works as intended 
+Wtite test cases before you write code 
+Are you building 
+You can use the thing right?
+
+Red , Grren refactor: Write enough test cases to fal the code, write another 
+to passthe code and refactor the code to make it better.
+In order to create your devops CI/CD pipeline you have to automate your testing 
+
+Behavior Driven Development
+The Behavior of the system as described from the outside in. If all the 
+compenets can be integrated with each other. All work together on a higher 
+level. Are you building the right thing?. It is documented using Gherkin 
+syntax 
+Gherkin syntaax: Given, when , and, when ,then
+
+It is run by BDD tools such as python, buhay, java , cucumber or ruby
+You can use the Gherkin syntax to write your acceptance criteria
+
+Cloud Native Microservices
+Each service maintinas it's own state in a persistent db/ in cloud 
+
+The Microservice architecctural style is an approach to developeing a single 
+application as a suite of small services, each running in its own process
+and communicating with lightweight machanisms, often an HTTP resource API.
+These services are built around business capabilities and independently 
+ddeployable by fully automated deveopemt machinery - Martin Fowler and James
+Lewis
+
+Design for failure at the application level
+- Retry pattern 
+- Circuit breaker patteren
+- Bulkhead pattern
+- Chaos engineering
+
+Summary and Highlights
+Congratulations! You have completed this lesson. At this point in the course, you know:  
+
+Social coding is coding as a community and public repositories and pair programming result in higher code quality. 
+
+Working in small batches reduces waste and means quickly delivering something useful to the customer. 
+
+Minimum viable product is as much about delivery as it is about building what the customer really desires. 
+
+Test driven development is writing the test for the code you wish you had, then writing the code to make the test pass. It allows you to develop faster and with more confidence.
+
+Behavior driven development focuses on the behavior of the system from the outside in. It looks at the system as a consumer of it. 
+
+Behavior driven development improves communication by using an approachable syntax that developers and stakeholders can understand. 
+
+Microservices are built around business capabilities and are independently deployable by fully automated deployment machinery.  
+
+Cloud native architecture enables independently deployable microservices that take advantage of horizontal scaling and result in more resilient services. 
+
+Failure is inevitable, so we design for failure rather than trying to avoid failure. 
+
+It is important to embrace failure and quickly recover when failures happen.  
