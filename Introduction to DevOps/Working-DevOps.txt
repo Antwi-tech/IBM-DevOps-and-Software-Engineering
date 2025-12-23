@@ -1,0 +1,102 @@
+Working Devops: It's the culture of teaming and collaboration
+Automate relentlessly
+Push smaller releases faster 
+
+Taloyorism 
+Adoption od command and control management
+Functional departments divide work into silos for effeciency
+
+DevOps: Build a continues series of software with continous changes
+
+Required Behaviors
+- Shared ownership and high collaboration 
+- Risk Management and embracing change 
+- Emphemeral infrastructure as code 
+- Automated self-service 
+- Fast feedback loops that are data driven 
+
+
+Infrastructure as Code: Describe infrastructure in a textual format known as code 
+They are known as configuration files eg: Ansible, puppet , chef . It is also 
+version controlled
+
+Emphemeral immutable Infrastructure
+- Servers are constantly changing or updating dependencies
+- Building is done through parallel infrastructure
+
+Continous Integration
+Continously buidling and testing and integrating every developer change after
+a set of test passed
+
+Continous delivery: Code is rapidly deployed to a production-like env
+
+Continous Delivery 
+Continous delivery is a software development discipline where you build 
+software in such a way that the softwarencan be released to production at 
+any time- Martin Fowler 
+
+Types of tests in a Pipeline
+- Unit tests                - Vulneralbility scanning 
+- Code quality tests        - Package signing 
+- Integration test
+- Security test 
+
+WHAT CI/CD Pipeline Needs
+- Code repo             - A build Server
+- Integration server    - Artifact repo 
+- Automatic config and deployment 
+
+Plan- Code- build - test - release - deploy - operate 
+
+Key Principles
+- Build quality 
+- Work in small batches
+- Computers perform repetitive tasks solve people problems 
+- Persue continous improvement
+
+
+
+"""
+Knight Capital Reading
+Estimated time needed: 5 minutes
+
+Knight Capital was a financial service company on the stock exchange and was one of the largest traders in the U.S. market. Their market share was 17.3 of the New York Stock Exchange and 16.9 of NASDAQ.
+
+The company had a retail liquidity program and wanted to replace old SMARS code with new RLP code. Their strategy was to repurpose a flag that turned it on and off. The old code was a power pipe peg that remained on the server. They were going to upgrade it, switch the flag, and then start running the new code. So, what could go wrong?
+
+On August 1, 2012, they manually upgraded seven of the eight servers. A system administrator upgraded seven of them and forgot to upgrade the eighth server. They went into test mode and thought they were testing servers when they flipped the switch. Instead, the eighth server ran real transactions on the real Internet to the tune of a $640 million loss.
+
+This caused a major disruption in the prices of 148 companies listed on the New York Stock Exchange. Incoming parent orders were processed. The defective power pipe peg sent millions of child orders resulting in 4 million executions of 154 stocks of more than 397 million shares in approximately 45 minutes. The next day Knight Capital was out of business—bankrupt— because someone did not upgrade that eighth server. The old code ran, and it made transactions it should not have made.
+
+What could they have done differently to prevent this type of error?
+
+This case is a great example of how using Continuous Delivery to automate deployments could have avoided one server being configured differently from any other server. Without automation, every deployment is an opportunity for human error and a chance of breaking the application. Automated deployment and testing for a test environment, staging environment, and production-like environment would have ensured that the change would not have caused this catastrophe.
+
+Author(s)
+John Rofrano
+Mary Deville
+© IBM Corporation 2023. All rights reserved.
+"""
+
+Summary and Highlights
+Congratulations! You have completed this lesson. At this point in the course, you know: 
+
+Taylorism was designed for factory work and software development is bespoke, that is, more like craftwork, and that working in silos leads to mistakes and bottlenecks. 
+
+Team ownership and stable teams make software development more like product development rather than project management. 
+
+Developers want innovation, while Operations want stability. 
+
+Required DevOps behaviors include shared ownership, collaboration, embracing change, and data-driven responses. 
+
+Infrastructure as Code is describing infrastructure in a textual executable format. 
+
+Ephemeral infrastructure can be used and then discarded because servers are built on demand, via automation, using Infrastructure as Code techniques. 
+
+Continuous Integration is building, testing, and integrating every developer change into the master branch after tests have passed. 
+
+The benefits of Continuous Integration include faster reaction time, moving faster, and reducing the risk in integrating code. 
+
+Continuous Delivery ensures that code can be rapidly and safely deployed to production by delivering every change to a production-like environment. 
+
+The five principles of Continuous Delivery have to do with quality, working in small batches, automation, continuous improvement, and shared responsibility.
